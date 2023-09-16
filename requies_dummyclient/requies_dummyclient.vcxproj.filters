@@ -2,9 +2,19 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="DummyPlayer.h" />
+    <ClInclude Include="DummySession.h" />
+    <ClInclude Include="DummySessionContext.h" />
+    <ClInclude Include="PacketHandler.h" />
+    <ClInclude Include="DummyService.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="requiesDummyClient.cpp" />
+    <ClCompile Include="DummyPlayer.cpp" />
+    <ClCompile Include="DummySession.cpp" />
+    <ClCompile Include="DummySessionContext.cpp" />
+    <ClCompile Include="PacketHandler.cpp" />
+    <ClCompile Include="DummyService.cpp" />
   </ItemGroup>
 </Project>
